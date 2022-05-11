@@ -1,0 +1,42 @@
+.sochial-list{
+    display: flex;
+    justify-content: center;
+}
+.sochial-list__item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    &:not(:last-child){
+        margin-right: 10px;
+    }
+    &:hover, &:focus{
+        background-color: $color-accent;
+    }
+}
+
+.sochial-list__item a{
+    display: flex;
+}
+.sochial-list__icon{
+    width: 20px;
+    height: 20px;
+
+    fill: $color_icon;
+ .sochial-list__item:hover &, .sochial-list__item:focus &{
+    fill: $white
+ }
+}
+
+
+// footer
+.sochial-list__footer-item{
+    background-color: $bgcolor-icon-footer;
+}
+.sochial-list__footer-icon{
+    fill: $white;
+
+
+}

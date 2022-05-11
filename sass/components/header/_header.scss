@@ -1,0 +1,28 @@
+.header__container{
+    display: flex;
+    padding: 16px 15px;
+    background-color: $white;
+    align-items: center;
+    &:hover, &:focus{
+        fill: $color-accent;
+    }
+}
+.header__menu-button{
+   margin-left: auto;
+   border: none;
+   background-color: $white;
+}
+.header__menu-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__icon-cross{
+    display: none;
+}
+.header__menu-button.is-open .header__icon-cross{
+    display: block;
+}
+.header__menu-button.is-open .header__icon-menu{
+    display: none;
+}

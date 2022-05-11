@@ -1,0 +1,22 @@
+.hero{
+    width: 480px;
+    height: 400px;
+
+    background-image: url(../../../img/bgimgmobile.jpg);
+   
+}
+.hero__container{
+ padding: 118px 60px;
+}
+.hero__title{
+    margin-bottom: 30px;
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 162%;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: $white;
+}

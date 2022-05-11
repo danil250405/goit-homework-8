@@ -1,0 +1,80 @@
+.footer{
+    background-color: $bgcolor-third;
+
+}
+
+.footer__wrapper-second{
+    margin-top: 60px;
+}
+.footer__wrapper-third{
+    margin-top: 60px;
+}
+.adress__map{
+    display: flex;
+    justify-content: center;
+    color: $white;
+    margin-top: 20px;
+    
+}
+.adress__online{
+    display: flex;
+    justify-content: center;
+    color: $color_contacts;
+    margin-top: 8px;
+}
+.footer__title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.footer__label{
+    position: relative;
+}
+.footer__input{
+    width: 100%;
+    height: 50px;
+    padding: 0 16px;
+    margin-bottom: 20px;
+
+    color: $white;
+    background-color: $bgcolor-third;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    &:focus{
+        outline: none;
+        border: 1px solid $color-accent;
+    }
+}
+.footer__mail-text{
+    position: absolute;
+    top: 0;
+    left: 16px;
+    color: $color_contacts;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+
+    .footer__input:focus + &,
+    .footer__input:not(:placeholder-shown) + &{
+        display: none;
+    }
+}
+.footer__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__icon-send{
+    fill: $white;
+    margin-left: 10px;
+}

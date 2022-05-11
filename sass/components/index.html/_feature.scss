@@ -1,0 +1,22 @@
+.feature__icon{
+    width: 70px;
+    height: 70px;
+}
+.feature__icon-wrapper{
+    padding: 25px 190px;
+    
+    background-color: $bgcolor-button;
+}
+.feature__item:not(:last-child){
+    margin-bottom: 30px;
+}
+.feature__item-title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;    
+    line-height: 1.14;
+    text-transform: uppercase;
+}
