@@ -1,13 +1,29 @@
 .footer{
+    // width: 480px;
     background-color: $bgcolor-third;
 
 }
-
+.footer__container{
+    width: 480px;
+    @media screen and (min-width: 768px){
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 .footer__wrapper-second{
     margin-top: 60px;
+    @media screen and (min-width: 768px){
+        margin-top: 0;
+        margin-left: 165px;
+        padding-top: 5px;
+    }
 }
 .footer__wrapper-third{
     margin-top: 60px;
+    width: 450px;
+    
 }
 .adress__map{
     display: flex;

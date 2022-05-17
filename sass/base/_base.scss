@@ -21,7 +21,14 @@ h2 {
 .container {
   margin-left: auto;
   margin-right: auto;
+  width: 480px;
   padding: 60px 15px;
+
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    
+  }
 }
 .button {
   display: block;

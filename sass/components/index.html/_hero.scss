@@ -1,8 +1,16 @@
 .hero{
     width: 480px;
     height: 400px;
+    margin: 0 auto;
 
-    background-image: url(../../../img/bgimgmobile.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
+     url(../../../img/bgimg.jpg);
+    background-size: cover;
+    
+    @media screen and (min-width: 768px) {
+        width: 768px;
+        background-size: 768px 400px;    
+    }
    
 }
 .hero__container{

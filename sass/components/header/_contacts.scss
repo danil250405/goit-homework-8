@@ -1,0 +1,37 @@
+.communication{
+    display: none;
+
+        @media screen and (min-width: 768px) {
+          display: block;
+          margin-left: 84px;
+          align-items: center;
+        
+    }
+}
+
+.communication__link {
+  display: flex;
+  color: $color_secondary-text;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.communication li{
+    width: 100%;
+}
+.communication__icon {
+  display: inline-flex;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.communication li + li {
+  margin-top: 10px;
+
+}
+
+.communication li :hover,
+.communicationli :focus {
+  color: $color-accent;
+}
